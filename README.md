@@ -6,3 +6,5 @@ This homework assignment needs to show a current day planner.  A user should be 
 
 # Resources
 Utilized some bootstrap documentation 
+
+https://www.w3schools.com/icons/fontawesome_icons_text.asp
