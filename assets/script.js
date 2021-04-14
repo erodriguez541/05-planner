@@ -23,4 +23,6 @@
 //
 //
 //
-$('#currentDay').text(dayjs().format('MMM Do, YYYY'));
+
+$('#currentDay').text(dayjs().format('MMMM Do, YYYY'));
+
