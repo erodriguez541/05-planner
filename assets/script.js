@@ -25,4 +25,8 @@
 //
 
 $('#currentDay').text(dayjs().format('MMMM Do, YYYY'));
+var currentTime= dayjs();
+currentTime = currentTime.startOf("hour");
+var beforeTime = dayjs().startOf('day').add(9,"hours")
+
 
