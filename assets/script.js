@@ -29,4 +29,12 @@ var currentTime= dayjs();
 currentTime = currentTime.startOf("hour");
 var beforeTime = dayjs().startOf('day').add(9,"hours")
 
-
+/// Save Entry to local storage
+$('.saveBtn').click(function(){
+    event.preventDefault();
+    var formValue = $(this).siblings(".form-control").val();
+    console.log("Form Value");
+    var listItem= $(this).parent().data('time')
+    localStorage.setItem(listItem, formValue)
+    console.log("timeValue")
+})
